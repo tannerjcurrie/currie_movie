@@ -1,0 +1,109 @@
+
+html, body {
+    margin:0;
+    background-color: black;
+}
+
+h1 {
+    color:  rgb(241, 173, 71);
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    font-size: 30px;
+    padding-top: 50px;
+
+    
+}
+
+.wrapper{
+    position: center;
+ 
+    width: 600px;  
+}
+
+.helper {
+    border: 1px solid white;
+}
+
+
+
+p {
+    color: rgb(241, 173, 71);
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    width: 500px;
+    padding: 30px;
+    background-color: black;
+    opacity: 0.75;
+    font-size: 20px  
+ }
+ 
+ h2 {
+    color: rgb(71, 173, 241);
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+   
+    font-size: 50px;
+ }
+
+
+.content-inner-one{
+    height: 100vh;
+    background: url("../img/firstman-assets/first_background.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    position:inherit;
+    
+}
+
+#title {
+    position: center;
+    z-index: 6;
+    left: 110px;
+    top: 250px;
+}
+
+.content-inner-two {
+    height: 100vh;
+    background: url("../img/firstman-assets/second_background.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.content-wrapper-three {
+    width: 700px;
+    margin: 0 auto;
+}
+
+.title {
+    display: block;
+    margin: 0 auto 0 auto;
+    padding-top: 30%;
+}
+
+
+
+/* .title {
+    display: block;
+    margin: 0 auto;
+    left: 700px;
+    top: 600px;
+    
+} */
+
+.video {
+    display:block;
+    margin: 0 auto;
+    
+   padding-top: 400px;
+}
+
+.rating {
+    position: absolute;
+    top: 95%;
+    left: 45%;
+    margin: 0 auto;
+}
